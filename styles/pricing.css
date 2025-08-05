@@ -1,0 +1,12 @@
+#pricing {
+    & header {
+        text-align: center;
+    }
+
+    @media (width >=80em) {
+        & header {
+            max-width: 50rem;
+            margin-inline: auto;
+        }
+    }
+}
